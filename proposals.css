@@ -26,9 +26,7 @@ h1, h2 {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
-#page-nav {
-  background: cadetblue;
-}
+
 header {
   background: white;
   grid-column: 1 / 13;
@@ -39,7 +37,7 @@ main {
 }
 main article {
   display: flex;
-  /*flex-wrap: wrap;*/
+  flex-wrap: wrap;
 }
 main h2 {
   background: slategray;
@@ -67,4 +65,23 @@ footer {
 
 footer a {
     color: white;
+}
+
+.main_header {
+  flex: 0 0 100%;
+}
+
+.main_nav {
+  background: cadetblue;
+  flex: 0 0 auto;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  height: 100%;
+}
+
+.main_section {
+  flex: 1 0 200px;
+  margin-top: 0;
+  margin-bottom: 1em;
 }
