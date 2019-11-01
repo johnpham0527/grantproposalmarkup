@@ -54,6 +54,7 @@ footer a {
 #site-nav a {
   color: white;
   display: block;
+  margin-bottom: 10px;
 }
 
 aside {
