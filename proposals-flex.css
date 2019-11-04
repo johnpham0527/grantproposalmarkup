@@ -82,7 +82,7 @@ aside {
 
 main {
   background: #F7F8FA;
-  flex: 1 1 500px;
+  flex: 1 1 600px;
   order: 3;
 }
 
@@ -111,4 +111,21 @@ main article {
   margin-bottom: 1em;
   grid-column-start: 1;
   grid-column-end: 13;
+}
+
+/* Media Queries
+====================*/
+@media only screen and (max-width: 799px) {
+  main {
+    flex: 1 1 100%;
+    order: 1;
+  }
+  #site-nav {
+    flex: 1 0 100%;
+    order: 3;
+  }
+  aside {
+    flex: 1 0 100%;
+    order: 2;
+  }
 }
