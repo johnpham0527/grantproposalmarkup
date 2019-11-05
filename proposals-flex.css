@@ -113,6 +113,10 @@ main article {
   grid-column-end: 13;
 }
 
+.main_section dt, .main_section dd {
+  margin-bottom: 5px;
+}
+
 /* Media Queries
 ====================*/
 @media only screen and (max-width: 799px) {
